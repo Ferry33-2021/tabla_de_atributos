@@ -1,0 +1,38 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+th, td {
+    padding: 12px 15px;
+    border: 1px black;
+}
+
+th {
+    background-color:darkturquoise;
+    color:black;
+}
+
+tr:nth-child(even) {
+    background-color:black;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+caption {
+    caption-side: top;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#imagen {
+    width: 200px;
+    border-radius: 10px;
+    
+}
